@@ -1,0 +1,11 @@
+Model Information:
+* title:	Jon Snow
+* source:	https://sketchfab.com/3d-models/jon-snow-2e94632116d442d7ab8882b6d493e74f
+* author:	Nephlim (https://sketchfab.com/bennyd006)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Jon Snow" (https://sketchfab.com/3d-models/jon-snow-2e94632116d442d7ab8882b6d493e74f) by Nephlim (https://sketchfab.com/bennyd006) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

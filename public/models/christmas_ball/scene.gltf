@@ -1,0 +1,608 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1364,
+      "max": [
+        1.0,
+        0.9999999403953552,
+        1.0
+      ],
+      "min": [
+        -0.9999999403953552,
+        -0.9999999403953552,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 16368,
+      "componentType": 5126,
+      "count": 1364,
+      "max": [
+        0.9999973773956299,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.9999973773956299,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1364,
+      "max": [
+        0.8752792477607727,
+        0.17236867547035217,
+        0.99718177318573,
+        1.0
+      ],
+      "min": [
+        -0.37826645374298096,
+        -0.9846292734146118,
+        -0.9971820116043091,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1364,
+      "max": [
+        0.9905210137367249,
+        0.9765762090682983
+      ],
+      "min": [
+        0.009478957392275333,
+        0.009478957392275333
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 10912,
+      "componentType": 5126,
+      "count": 1364,
+      "max": [
+        0.9905210137367249,
+        0.9765762090682983
+      ],
+      "min": [
+        0.009478957392275333,
+        0.009478957392275333
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 21824,
+      "componentType": 5126,
+      "count": 1364,
+      "max": [
+        0.9905210137367249,
+        0.9765762090682983
+      ],
+      "min": [
+        0.009478957392275333,
+        0.009478957392275333
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 7680,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32736,
+      "componentType": 5126,
+      "count": 16892,
+      "max": [
+        0.8736203908920288,
+        0.8909692764282227,
+        1.8114356994628906
+      ],
+      "min": [
+        -0.8736203908920288,
+        -0.9120743870735168,
+        -3.424422345688072e-08
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 235440,
+      "componentType": 5126,
+      "count": 16892,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 21824,
+      "componentType": 5126,
+      "count": 16892,
+      "max": [
+        1.0,
+        0.9998279809951782,
+        0.999998927116394,
+        1.0
+      ],
+      "min": [
+        -0.9999685287475586,
+        -0.999932587146759,
+        -0.9999974966049194,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 32736,
+      "componentType": 5126,
+      "count": 16892,
+      "max": [
+        0.9999989867210388,
+        0.9969159960746765
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 167872,
+      "componentType": 5126,
+      "count": 16892,
+      "max": [
+        0.9999989867210388,
+        0.9969159960746765
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 303008,
+      "componentType": 5126,
+      "count": 16892,
+      "max": [
+        0.9999989867210388,
+        0.9969159960746765
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 30720,
+      "componentType": 5125,
+      "count": 70383,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 438144,
+      "componentType": 5126,
+      "count": 16892,
+      "max": [
+        0.877620279788971,
+        0.8949577808380127,
+        1.815214991569519
+      ],
+      "min": [
+        -0.8776203989982605,
+        -0.9153697490692139,
+        -3.424422345688072e-08
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 640848,
+      "componentType": 5126,
+      "count": 16892,
+      "max": [
+        0.9999996423721313,
+        0.9999964833259583,
+        1.0
+      ],
+      "min": [
+        -0.9999983310699463,
+        -0.9999983310699463,
+        -0.9999980926513672
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 438144,
+      "componentType": 5126,
+      "count": 16892,
+      "max": [
+        0.9999989867210388,
+        0.9969159960746765
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 312252,
+      "componentType": 5125,
+      "count": 70383,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Ivanix88 (https://sketchfab.com/Ivanix88)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/christmas-ball-36868988285f4b60b3e389e1aa1bab3f",
+      "title": "Christmas Ball"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 593784,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 573280,
+      "byteOffset": 593784,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 843552,
+      "byteOffset": 1167064,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 292096,
+      "byteOffset": 2010616,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2302712,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/glass_baseColor.png"
+    },
+    {
+      "uri": "textures/glass_normal.png"
+    },
+    {
+      "uri": "textures/inside_baseColor.png"
+    },
+    {
+      "uri": "textures/inside_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/inside_emissive.png"
+    },
+    {
+      "uri": "textures/inside_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "name": "glass",
+      "normalTexture": {
+        "index": 1,
+        "scale": 0.0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          0.3126905488
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "roughnessFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 4
+      },
+      "name": "inside",
+      "normalTexture": {
+        "index": 5
+      },
+      "occlusionTexture": {
+        "index": 3
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicRoughnessTexture": {
+          "index": 3
+        }
+      }
+    },
+    {
+      "name": "ouline",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "glass_glass_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5
+          },
+          "indices": 6,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "christmass_ball_inside_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 8,
+            "POSITION": 7,
+            "TANGENT": 9,
+            "TEXCOORD_0": 10,
+            "TEXCOORD_1": 11,
+            "TEXCOORD_2": 12
+          },
+          "indices": 13,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "christmass_ball_ouline_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 15,
+            "POSITION": 14,
+            "TEXCOORD_0": 16
+          },
+          "indices": 17,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "1ede5b84306949a9837286afc5f7cea4.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        0.0,
+        110.0,
+        0.0,
+        1.0
+      ],
+      "name": "glass"
+    },
+    {
+      "mesh": 0,
+      "name": "glass_glass_0"
+    },
+    {
+      "children": [
+        6,
+        7
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "christmass_ball"
+    },
+    {
+      "mesh": 1,
+      "name": "christmass_ball_inside_0"
+    },
+    {
+      "mesh": 2,
+      "name": "christmass_ball_ouline_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}

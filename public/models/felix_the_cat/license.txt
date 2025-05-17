@@ -1,0 +1,11 @@
+Model Information:
+* title:	Felix The Cat
+* source:	https://sketchfab.com/3d-models/felix-the-cat-6c6fa5c8512a4659a37469f869199b1b
+* author:	rudolfs (https://sketchfab.com/rudolfs)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Felix The Cat" (https://sketchfab.com/3d-models/felix-the-cat-6c6fa5c8512a4659a37469f869199b1b) by rudolfs (https://sketchfab.com/rudolfs) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

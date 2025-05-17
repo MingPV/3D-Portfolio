@@ -1,0 +1,11 @@
+Model Information:
+* title:	Elf Wizard
+* source:	https://sketchfab.com/3d-models/elf-wizard-ca5564a738174feca82c9d89610c017d
+* author:	Muru (https://sketchfab.com/muru)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Elf Wizard" (https://sketchfab.com/3d-models/elf-wizard-ca5564a738174feca82c9d89610c017d) by Muru (https://sketchfab.com/muru) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

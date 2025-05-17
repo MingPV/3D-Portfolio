@@ -1,0 +1,11 @@
+Model Information:
+* title:	Strong Chicken
+* source:	https://sketchfab.com/3d-models/strong-chicken-7ad10b7b92c2486b9a6b46b2371f6270
+* author:	zixisun02 (https://sketchfab.com/zixisun51)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Strong Chicken" (https://sketchfab.com/3d-models/strong-chicken-7ad10b7b92c2486b9a6b46b2371f6270) by zixisun02 (https://sketchfab.com/zixisun51) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

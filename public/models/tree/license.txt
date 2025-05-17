@@ -1,0 +1,11 @@
+Model Information:
+* title:	Realistic Tree Models For Games
+* source:	https://sketchfab.com/3d-models/realistic-tree-models-for-games-b27168d5dbee4abe878d46aa045d1ddc
+* author:	fadiyasotodeh (https://sketchfab.com/fadiyasotodeh)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Realistic Tree Models For Games" (https://sketchfab.com/3d-models/realistic-tree-models-for-games-b27168d5dbee4abe878d46aa045d1ddc) by fadiyasotodeh (https://sketchfab.com/fadiyasotodeh) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
