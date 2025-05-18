@@ -12,7 +12,9 @@ const store = useSceneStore();
 
 <template>
   <div>
-    <div class="absolute top-10 left-0 w-full text-center z-50 text-white">
+    <div
+      class="absolute top-0 left-0 w-full h-[100vh] text-center z-40 text-white"
+    >
       <!-- <h1 class="text-4xl font-bold">
         {{ sectionContents[store.currentSection].title }}
       </h1>
@@ -20,19 +22,29 @@ const store = useSceneStore();
         {{ sectionContents[store.currentSection].desc }}
       </p> -->
       <template v-if="store.currentSection === 0">
-        <HelloContent />
+        <KeepAlive>
+          <HelloContent />
+        </KeepAlive>
       </template>
       <template v-else-if="store.currentSection === 1">
-        <AboutContent />
+        <KeepAlive>
+          <AboutContent />
+        </KeepAlive>
       </template>
       <template v-else-if="store.currentSection === 2">
-        <EducationContent />
+        <KeepAlive>
+          <EducationContent />
+        </KeepAlive>
       </template>
       <template v-else-if="store.currentSection === 3">
-        <ProjectContent />
+        <KeepAlive>
+          <ProjectContent />
+        </KeepAlive>
       </template>
       <template v-else-if="store.currentSection === 4">
-        <ContactContent />
+        <KeepAlive>
+          <ContactContent />
+        </KeepAlive>
       </template>
     </div>
 

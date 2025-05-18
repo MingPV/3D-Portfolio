@@ -55,7 +55,7 @@ const cameraPositions = [
   },
   {
     position: new THREE.Vector3(3.07, 1.36, -1.33),
-    target: new THREE.Vector3(-6.39, 1.2, 1.91),
+    target: new THREE.Vector3(-6.39, 1.2, 4.91),
   },
   {
     position: new THREE.Vector3(-2.22, 2.22, 4.02),
@@ -145,6 +145,7 @@ onMounted(() => {
 
   let isScrolling = false;
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const handleScroll = (event) => {
     if (isScrolling) return;
     isScrolling = true;
@@ -161,7 +162,7 @@ onMounted(() => {
       isScrolling = false;
     }, 2000); // change the timeout duration to match the animation duration
   };
-  window.addEventListener("wheel", handleScroll);
+  // window.addEventListener("wheel", handleScroll);
 
   // Animation Loop
   const animate = () => {

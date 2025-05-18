@@ -3,7 +3,7 @@
     class="flex flex-col absolute left-0 h-[100vh] top-0 justify-center items-start"
   >
     <div
-      class="flex flex-col w-full h-full items-start justify-center ml-20 mb-16 font-serif"
+      class="flex flex-col w-full h-full items-start justify-center ml-20 font-serif"
     >
       <div class="text-8xl font-bold mb-4 text-stone-700/70">Welcome,</div>
       <div class="ml-8 text-stone-700/70">

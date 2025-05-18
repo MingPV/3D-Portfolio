@@ -8,7 +8,7 @@
         class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center"
       >
         <div
-          class="text-2xl font-semibold hover:cursor-pointer"
+          class="text-2xl hover:cursor-pointer font-semibold font-serif"
           @click="sceneStore.setSection(0)"
         >
           MingPV
@@ -54,12 +54,21 @@
               Contact
             </div>
           </li>
+
+          <div
+            class="flex flex-row items-center animate-pulse gap-1 text-xs font-mono font-bold text-stone-300/80"
+          >
+            <Icon
+              name="material-symbols:line-start-arrow-notch-rounded"
+              class="duration-300 transition-all text-xl"
+            />Explore section
+          </div>
         </ul>
       </div>
     </nav>
 
     <!-- Push content down below the navbar -->
-    <div class="">
+    <div class="w-full h-[90vh]">
       <slot />
     </div>
   </div>

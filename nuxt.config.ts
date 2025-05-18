@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@nuxt/icon",
     "@nuxtjs/tailwindcss",
     "@pinia/nuxt",
+    "@nuxt/image",
   ],
   build: {
     transpile: ["troisjs"],
