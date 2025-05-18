@@ -36,18 +36,44 @@
 <script setup>
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import { useSceneStore } from "~/stores/sceneStore";
+// import gsap from "gsap";
 
 const canvas = ref(null);
 
 let renderer, scene, camera, animationId, controls;
 const models = [];
 
+const sceneStore = useSceneStore();
+
 const keysPressed = {};
+
+const cameraPositions = [
+  {
+    position: new THREE.Vector3(6.6, 3.2, 1.46),
+    target: new THREE.Vector3(-3.21, 3.2, 4.46),
+  },
+  {
+    position: new THREE.Vector3(3.07, 1.36, -1.33),
+    target: new THREE.Vector3(-6.39, 1.2, 1.91),
+  },
+  {
+    position: new THREE.Vector3(-2.22, 2.22, 4.02),
+    target: new THREE.Vector3(6.3, 1.4, -1.18),
+  },
+  {
+    position: new THREE.Vector3(4.09, 6.4, -2.34),
+    target: new THREE.Vector3(-5.85, 6.4, -3.42),
+  },
+  {
+    position: new THREE.Vector3(4.09, 6.4, -2.34),
+    target: new THREE.Vector3(-5.85, 6.4, -30.42),
+  },
+];
 
 onMounted(() => {
   // create Scene
   scene = new THREE.Scene();
-  // scene.background = new THREE.Color(0xfff5e1); // cream color
   scene.background = createGradientTexture(); // cream color
 
   // create Camera
@@ -57,6 +83,8 @@ onMounted(() => {
     0.1,
     4000
   );
+  camera.position.set(6.6, 3.2, 1.46); // angle
+  camera.lookAt(-3.21, 3.2, 4.46); // look at the center
 
   // create Renderer and bind canvas element
   renderer = new THREE.WebGLRenderer({ canvas: canvas.value, antialias: true });
@@ -64,9 +92,6 @@ onMounted(() => {
   renderer.setPixelRatio(window.devicePixelRatio);
   renderer.shadowMap.enabled = true; // ✅ เปิดเงา
   renderer.shadowMap.type = THREE.PCFSoftShadowMap; // (optional) ทำให้เงานุ่ม
-
-  camera.position.set(8, 1, 1); // angle
-  camera.lookAt(0, 0, 0); // look at the center
 
   // ✅ create OrbitControls (must be after camera and renderer)
   controls = new OrbitControls(camera, renderer.domElement);
@@ -76,21 +101,23 @@ onMounted(() => {
   controls.minDistance = 10;
   controls.maxDistance = 1000;
   controls.maxPolarAngle = Math.PI / 2; // fixed angle
+  controls.enableRotate = false;
+  controls.enableZoom = false;
+  controls.enablePan = false;
+  controls.target.set(-3.21, 3.2, 4.46);
+  controls.update();
 
   window.addEventListener("keydown", onKeyDown);
-
   window.addEventListener("keyup", onKeyUp);
 
-  const speed = 0.1;
-
-  // add axis
-  // const axesHelper = new THREE.AxesHelper(10);
-  // scene.add(axesHelper);
+  // setStore
+  sceneStore.setCamera(camera);
+  sceneStore.setControls(controls);
+  sceneStore.setCameraPositions(cameraPositions);
 
   // light
   const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
   scene.add(ambientLight);
-
   // Directional light
   const directionalLight = new THREE.DirectionalLight(0xffffff, 5);
   directionalLight.position.set(10, 40, 10);
@@ -107,8 +134,7 @@ onMounted(() => {
   shadowCam.far = 100;
   shadowCam.updateProjectionMatrix();
   scene.add(directionalLight);
-
-  // (optional) ปรับรายละเอียดเงา
+  // light shadow
   directionalLight.shadow.mapSize.width = 2048;
   directionalLight.shadow.mapSize.height = 2048;
   directionalLight.shadow.camera.near = 0.5;
@@ -117,47 +143,29 @@ onMounted(() => {
   const hemiLight = new THREE.HemisphereLight(0xcceeff, 0xffffff, 0.6);
   scene.add(hemiLight);
 
+  let isScrolling = false;
+
+  const handleScroll = (event) => {
+    if (isScrolling) return;
+    isScrolling = true;
+
+    if (event.deltaY > 0) {
+      sceneStore.nextSection();
+    } else {
+      sceneStore.prevSection();
+    }
+
+    sceneStore.moveCameraToCurrentSection();
+
+    setTimeout(() => {
+      isScrolling = false;
+    }, 2000); // change the timeout duration to match the animation duration
+  };
+  window.addEventListener("wheel", handleScroll);
+
   // Animation Loop
   const animate = () => {
     animationId = requestAnimationFrame(animate);
-
-    // get forward and right vectors
-    const dir = new THREE.Vector3();
-    camera.getWorldDirection(dir);
-    dir.y = 0;
-    dir.normalize();
-
-    const right = new THREE.Vector3();
-    right.crossVectors(dir, new THREE.Vector3(0, 1, 0)).normalize();
-
-    if (keysPressed["w"]) {
-      camera.position.addScaledVector(dir, speed);
-      controls.target.addScaledVector(dir, speed);
-    }
-    if (keysPressed["s"]) {
-      camera.position.addScaledVector(dir, -speed);
-      controls.target.addScaledVector(dir, -speed);
-    }
-    if (keysPressed["a"]) {
-      camera.position.addScaledVector(right, -speed);
-      controls.target.addScaledVector(right, -speed);
-    }
-    if (keysPressed["d"]) {
-      camera.position.addScaledVector(right, speed);
-      controls.target.addScaledVector(right, speed);
-    }
-
-    if (keysPressed[" "]) {
-      camera.position.y += speed;
-      controls.target.y += speed;
-    }
-    if (keysPressed["shift"]) {
-      camera.position.y -= speed;
-      controls.target.y -= speed;
-    }
-
-    controls.update();
-    // console.log("Camera position:", camera.position);sa
 
     renderer.render(scene, camera);
   };
@@ -227,7 +235,9 @@ onBeforeUnmount(() => {
   controls.dispose(); // ✅ dispose controls
   window.removeEventListener("keydown", onKeyDown);
   window.removeEventListener("keyup", onKeyUp);
+  window.removeEventListener("wheel", handleScroll);
   renderer.dispose();
+
   scene.clear();
 });
 </script>
