@@ -1,2 +1,4 @@
 <h1>Portfolio website</h1>
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/db282268-920d-47f0-9e8f-88689c5a9168" />
+<img width="1495" alt="image" src="https://github.com/user-attachments/assets/12fd9f40-d9f9-4ebf-b201-622bb58bb1de" />
+<img width="1496" alt="image" src="https://github.com/user-attachments/assets/cf0a47f6-9e5d-4b9d-97ba-b50ed84889f4" />
+<img width="1493" alt="image" src="https://github.com/user-attachments/assets/d1e31f95-7cc8-4753-9d2f-c6074d342c8e" />
