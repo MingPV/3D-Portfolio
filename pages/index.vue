@@ -21,7 +21,7 @@ const store = useSceneStore();
       <p class="text-xl mt-2">
         {{ sectionContents[store.currentSection].desc }}
       </p> -->
-      <template v-if="store.currentSection === 0">
+      <!-- <template v-if="store.currentSection === 0">
         <KeepAlive>
           <HelloContent />
         </KeepAlive>
@@ -33,7 +33,7 @@ const store = useSceneStore();
       </template>
       <template v-else-if="store.currentSection === 2">
         <KeepAlive>
-          <EducationContent />
+          <ExperienceContent />
         </KeepAlive>
       </template>
       <template v-else-if="store.currentSection === 3">
@@ -45,7 +45,23 @@ const store = useSceneStore();
         <KeepAlive>
           <ContactContent />
         </KeepAlive>
-      </template>
+      </template> -->
+
+      <KeepAlive
+        ><HelloContent v-show="store.currentSection === 0"
+      /></KeepAlive>
+      <KeepAlive
+        ><AboutContent v-show="store.currentSection === 1"
+      /></KeepAlive>
+      <KeepAlive
+        ><ExperienceContent v-show="store.currentSection === 2"
+      /></KeepAlive>
+      <KeepAlive
+        ><ProjectContent v-show="store.currentSection === 3"
+      /></KeepAlive>
+      <KeepAlive
+        ><ContactContent v-show="store.currentSection === 4"
+      /></KeepAlive>
     </div>
 
     <ThreeScene />

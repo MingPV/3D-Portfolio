@@ -30,14 +30,14 @@
               About
             </div>
           </li>
-          <li>
+          <!-- <li>
             <div
               class="hover:text-gray-300 transition hover:cursor-pointer"
               @click="sceneStore.setSection(2)"
             >
               Experience
             </div>
-          </li>
+          </li> -->
           <li>
             <div
               class="hover:text-gray-300 transition hover:cursor-pointer"

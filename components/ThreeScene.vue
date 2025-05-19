@@ -58,12 +58,12 @@ const cameraPositions = [
     target: new THREE.Vector3(-6.39, 1.2, 4.91),
   },
   {
-    position: new THREE.Vector3(-2.22, 2.22, 4.02),
-    target: new THREE.Vector3(6.3, 1.4, -1.18),
+    position: new THREE.Vector3(1.22, 2.22, 6.02),
+    target: new THREE.Vector3(-16.3, 1.4, -3.18),
   },
   {
     position: new THREE.Vector3(4.09, 6.4, -2.34),
-    target: new THREE.Vector3(-5.85, 6.4, -3.42),
+    target: new THREE.Vector3(-5.85, 6.4, -9.0),
   },
   {
     position: new THREE.Vector3(4.09, 6.4, -2.34),
