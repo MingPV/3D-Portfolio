@@ -27,7 +27,7 @@
         >
           <div class="flex w-full justify-center mt-2">
             <NuxtImg
-              src="/images/ProjectFIleAndPic/GameShelf/Gameshelf-1.png"
+              src="/images/Gameshelf-1.png"
               width="400"
               height="200"
               class="shadow-lg"
@@ -100,7 +100,7 @@
         >
           <div class="flex w-full justify-center mt-2">
             <NuxtImg
-              src="/images/ProjectFIleAndPic/RiderChat/RiderChat1.png"
+              src="/images/RiderChat1.png"
               width="400"
               height="200"
               class="shadow-lg"
@@ -137,7 +137,7 @@
         >
           <div class="flex w-full justify-center mt-2">
             <NuxtImg
-              src="/images/ProjectFIleAndPic/DentalBooking/dental_1.png"
+              src="/images/dental_1.png"
               width="400"
               height="200"
               class="shadow-lg"
@@ -172,7 +172,7 @@
         >
           <div class="flex w-full justify-center mt-2">
             <NuxtImg
-              src="/images/ProjectFIleAndPic/Chess/chess_1.png"
+              src="/images/chess_1.png"
               width="400"
               height="200"
               class="shadow-lg"
