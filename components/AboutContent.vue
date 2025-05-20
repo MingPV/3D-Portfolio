@@ -4,7 +4,7 @@
     class="flex flex-row absolute left-0 w-full top-0 h-full justify-center items-center gap-12 duration-500 transition-all"
   >
     <div
-      class="flex flex-row w-[80%] ml-12 h-4/5 items-start justify-center font-serif bg-stone-700/70 backdrop-blur-md rounded-md"
+      class="flex flex-row w-[95%] md:w-[80%] ml-12 h-4/5 items-start justify-center font-serif bg-stone-700/70 backdrop-blur-md rounded-md"
     >
       <div class="w-1/3 h-full pt-6 flex flex-col items-center justify-start">
         <!-- <img
@@ -71,7 +71,7 @@
           new technologies.
         </div>
         <div
-          class="w-full h-full bg-stone-900/40 mt-4 flex flex-col gap-2 justify-start items-start"
+          class="w-full h-full bg-stone-900/40 mt-4 flex flex-col gap-2 justify-start items-start overflow-y-scroll"
         >
           <div class="m-4 mx-6 w-full flex justify-start items-start flex-col">
             <div class="font-bold text-stone-200">Languages</div>
